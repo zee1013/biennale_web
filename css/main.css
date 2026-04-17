@@ -1,0 +1,30 @@
+/* css 연결 */
+@import url(font.css);
+@import url(root.css);
+
+@import url(header.css);
+@import url(visual.css);
+
+/* 공통 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.inner{
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}

@@ -20,6 +20,14 @@
     />
     <meta name="apple-mobile-web-app-title" content="Daegu Photo Biennale" />
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <!-- 폰트어썸 -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- seo 최적화 적용 -->
     <!-- 웹페이지의 설명을 정의 -->
     <meta name="description" content="대구사진비엔날레 웹 사이트입니다." />
@@ -67,12 +75,11 @@
         <div class="inner">
           <!-- 로고 -->
           <a href="#" class="logo"></a>
-
           <!-- pc 메뉴 -->
           <nav class="nav">
             <ul class="menu-list">
               <li>
-                <a href="#">EXHIBITION</a>
+                <a href="#"><span> EXHIBITION</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">주제전시</a></li>
                   <li><a href="#">특별전시</a></li>
@@ -81,14 +88,14 @@
                 </ul>
               </li>
               <li>
-                <a href="#">ARTIST</a>
+                <a href="#"><span>ARTIST</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">작가 리스트</a></li>
                   <li><a href="#">작가 상세보기</a></li>
                 </ul>
               </li>
               <li>
-                <a href="#">PROGRAM</a>
+                <a href="#"><span>PROGRAM</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">워크샵</a></li>
                   <li><a href="#">체험교육</a></li>
@@ -97,7 +104,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#">VISIT</a>
+                <a href="#"><span>VISIT</span></a>
                 <ul class="sub-menu">
                   <li>
                     <a href="#">위치/지도<br />(교통안내)</a>
@@ -108,7 +115,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#">TICKET</a>
+                <a href="#"><span>TICKET</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">예매하기</a></li>
                 </ul>
@@ -121,17 +128,17 @@
             <span></span>
             <span></span>
           </div>
-          <!-- 모바일 메뉴 -->
-          <nav class="mb-nav">
-            <ul class="mb-menu-list">
-              <li><a href="#">EXHIBITION</a></li>
-              <li><a href="#">ARTIST</a></li>
-              <li><a href="#">PROGRAM</a></li>
-              <li><a href="#">VISIT</a></li>
-              <li><a href="#">TICKET</a></li>
-            </ul>
-          </nav>
         </div>
+        <!-- 모바일 메뉴 -->
+        <nav class="mb-nav">
+          <ul class="mb-menu-list">
+            <li><a href="#">EXHIBITION</a></li>
+            <li><a href="#">ARTIST</a></li>
+            <li><a href="#">PROGRAM</a></li>
+            <li><a href="#">VISIT</a></li>
+            <li><a href="#">TICKET</a></li>
+          </ul>
+        </nav>
       </header>
       <!-- 메인 비주얼 -->
       <section class="main-visual">
@@ -158,12 +165,84 @@
                 Daegu <br />
                 <span>Photo Biennale</span>
               </h1>
-              <span></span>
+              <div class="txt-subTitle">
+                <span></span>
               <p>사진으로 세상을 보다</p>
+              </div>
+              <div class="txt-btm">
+                <p><i class="fa-regular fa-calendar"></i> 2026.09.01 - 11.30</p>
+                <p><i class="fa-solid fa-location-dot"></i> 대구문화예술회관</p>
+              </div>
             </div>
+            <!-- scroll btn -->
+             <button class="scroll-btn">SCROLL ↓</button>
           </div>
         </div>
       </section>
+      <!-- 갤러리 -->
+       <section class="gallery">
+        <div class="inner">
+          <div class="gallery-title">
+            <div class="quote">
+              <img src="img/gallery/icomoon-free_quotes-left.png" alt="qoute">
+            </div>
+          <h2>다양한 시선으로 바라본 세계, <br>
+          사진으로 경험하는 새로운 감각.</h2>
+          </div>
+          <!-- 갤러리 스와이프 -->
+           <div class="swiper gallery-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="gallery-imgBox">
+                  <img src="img/gallery/gallery_1.png" alt="갤러리">
+                </div>
+                <div class="gallery-desc">
+                  <p>Erwin Olaf_April Fool 2020</p>
+                  <p>악몽과도 같은 펜데믹 사태의 초현실성 속에서 나는 돌연 나의 무력감과 관련된 이미지에 눈을 뜬다.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="gallery-imgBox">
+                  <img src="img/gallery/gallery_2.png" alt="갤러리">
+                </div>
+                <div class="gallery-desc">
+                  <p>Erwin Olaf_April Fool 2020</p>
+                  <p>악몽과도 같은 펜데믹 사태의 초현실성 속에서 나는 돌연 나의 무력감과 관련된 이미지에 눈을 뜬다.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="gallery-imgBox">
+                  <img src="img/gallery/gallery_3.png" alt="갤러리">
+                </div>
+                <div class="gallery-desc">
+                  <p>Erwin Olaf_April Fool 2020</p>
+                  <p>악몽과도 같은 펜데믹 사태의 초현실성 속에서 나는 돌연 나의 무력감과 관련된 이미지에 눈을 뜬다.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="gallery-imgBox">
+                  <img src="img/gallery/gallery_4.png" alt="갤러리">
+                </div>
+                <div class="gallery-desc">
+                  <p>Erwin Olaf_April Fool 2020</p>
+                  <p>악몽과도 같은 펜데믹 사태의 초현실성 속에서 나는 돌연 나의 무력감과 관련된 이미지에 눈을 뜬다.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="gallery-imgBox">
+                  <img src="img/gallery/gallery_5.png" alt="갤러리">
+                </div>
+                <div class="gallery-desc">
+                  <p>Erwin Olaf_April Fool 2020</p>
+                  <p>악몽과도 같은 펜데믹 사태의 초현실성 속에서 나는 돌연 나의 무력감과 관련된 이미지에 눈을 뜬다.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+           </div>
+        </div>
+       </section>
     </div>
   </body>
 </html>

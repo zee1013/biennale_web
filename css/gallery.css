@@ -1,0 +1,26 @@
+.gallery{
+    margin-top: 50px;
+}
+.quote{
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+.quote img{
+    display: block;
+    width: 100%;
+}
+.gallery-title{
+    margin-bottom: 200px;
+}
+.gallery-title h2{
+    font-size: var(--font--title--48);
+    color: var(--color--text--main);
+}
+/* .gallery-imgBox{
+    width: 80%;
+} */
+ .gallery-swiper{
+    width: 80% !important;
+ }

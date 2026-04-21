@@ -1,0 +1,15 @@
+.about{
+    position: relative;
+    margin-top: 15%;
+    padding: 80px 0;
+    background-color: #eee;
+}
+.about-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.about-txt h2{
+    font-size: var(--font--title--64);
+}

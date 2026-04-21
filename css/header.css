@@ -10,7 +10,7 @@
 }
 .header.active {
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .header .inner {
   width: 100%;
@@ -79,7 +79,11 @@
 }
 /* 서브메뉴 */
 .sub-menu {
-  display: none;
+  /* display: none; */
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
   padding: 5%;
   transition: all 0.5s;
   background-color: rgba(255, 255, 255, 0.3);
@@ -99,7 +103,9 @@
   color: var(--color--main);
 }
 .menu-list li:hover .sub-menu {
-  display: block;
+  opacity: 1;
+  max-height: 250%;
+  visibility: visible;
 }
 .header.active .sub-menu {
   background-color: rgba(0, 0, 0, 0.3);

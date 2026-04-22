@@ -24,9 +24,6 @@
 .gallery-swiper {
   width: 70% !important;
 }
-.gallery-desc {
-  font-family: "Pretendard";
-}
 .gallery-desc p {
   line-height: 2;
   font-size: var(--font--main--21);

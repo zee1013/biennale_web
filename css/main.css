@@ -5,6 +5,7 @@
 @import url(visual.css);
 @import url(gallery.css);
 @import url(about.css);
+@import url(exhibition.css);
 
 /* root */
 :root{
@@ -55,4 +56,50 @@ html.active{
   width: 100%;
   max-width: 1400px;
   margin: auto;
+}
+p, a, h2{
+  font-family: "Pretendard";
+  color: var(--color--text--main);
+}
+/* go top 버튼 */
+.fix-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 99;
+}
+.fix-btn.active{
+  opacity: 1;
+  visibility: visible;
+}
+.fix-btn button{
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.promotion-btn{
+  color: #fff;
+  background-color: var(--color--main);
+}
+.promotion-btn span{
+  font-size: 21px;
+}
+.promotion-btn i{
+  font-size: 18px;
+}
+.gotop i{
+  font-size: 24px;
+  color: #666;
 }

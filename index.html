@@ -62,14 +62,30 @@
     />
     <!-- css 연결 -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- waypoint -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+      integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- js 연결 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/header.js"></script>
   </head>
   <body>
+    <!-- modal 창(promotion) -->
     <!-- 전체 -->
     <div class="wrap">
+      <!-- gotop -->
+      <div class="fix-btn">
+        <button class="promotion-btn">
+          <p>혜택받고 <br><span>사전예약</span> <br><i class="fa-solid fa-arrow-right-long"></i></p>
+        </button>
+        <button class="gotop"><i class="fa-solid fa-arrow-up-long"></i></button>
+      </div>
       <!-- 헤더 -->
       <header class="header">
         <div class="inner">
@@ -238,6 +254,15 @@
                   <span>불키저는 알바니아 북동부의 광업으로 이름 난 작은 마을이다. 1939년 크롬이 처음 발견되고, 1948년에 해당 광물을 채굴하기 위한 광산이 생긴 후 불키저는 전 세계에서 세 번째로 큰 크롬 생산지가 되었다.</span>
                 </div>
               </div>
+              <div class="swiper-slide">
+                <div class="gallery-imgBox">
+                  <img src="img/gallery/gallery_6.png" alt="갤러리">
+                </div>
+                <div class="gallery-desc">
+                  <p>Elton Gllava, from the series Bulqize, 2013-2017</p>
+                  <span>불키저는 알바니아 북동부의 광업으로 이름 난 작은 마을이다. 1939년 크롬이 처음 발견되고, 1948년에 해당 광물을 채굴하기 위한 광산이 생긴 후 불키저는 전 세계에서 세 번째로 큰 크롬 생산지가 되었다.</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -253,8 +278,28 @@
 <p>다양한 주제와 기법으로 표현된 수백여 점의 작품들은 우리에게 익숙한 세계를 낯설게 바라보게 하고, 사진을 통해 새로운 감각과 인식을 경험하게 합니다.</p>
             </div>
             <!-- 이미지 -->
+             <ul class="about-img">
+              <li>
+                <img src="img/about/about1.png" alt="about">
+              </li>
+              <li>
+                <img src="img/about/about2.png" alt="about">
+              </li>
+              <li>
+                <img src="img/about/about3.png" alt="about">
+              </li>
+             </ul>
           </div>
         </section>
+        <!-- exhibition 전시 -->
+         <section class="exhibition">
+          <div class="inner">
+            <div class="exhibition-title">
+              <h2>EXHIBITION</h2>
+            </div>
+            <!-- 스와이퍼 / pc에서는 스와이프x -->
+          </div>
+         </section>
     </div>
   </body>
 </html>

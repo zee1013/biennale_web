@@ -21,6 +21,9 @@
 /* .gallery-imgBox{
     width: 80%;
 } */
+ .gallery-swiper-wrap{
+  position: relative;
+ }
 .gallery-swiper {
   width: 70% !important;
 }
@@ -35,4 +38,21 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   color: var(--color--text--desc);
+}
+/* 스와이퍼 컨트롤러 */
+.sw-visual-ctrl{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+.sw-visual-ctrl button{
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  color: #ddd;
+  background-color: transparent;
 }

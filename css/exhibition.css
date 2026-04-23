@@ -16,3 +16,33 @@
     height: 2px;
     background-color: #ddd;
 }
+/* 전시 스와이퍼 */
+.exhibition-swiper-wrap{
+    position: relative;
+    margin-top: 10%;
+}
+.exhibition-swiper .swiper-slide{
+    /* height: 694px; */
+    aspect-ratio: 449/694;
+    /* background-color: red; */
+}
+.exhibition-swiper .swiper-slide a{
+    display: block;
+    height: 100%;
+}
+.exhibition-sw-img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.exhibition-sw-txt{
+    padding: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+.exhibition-sw-txt h4{
+    font-size: var(--font--main--21);
+}
+.exhibition-sw-txt p{
+    font-size: var(--font--main--18);
+    color: var(--color--text--desc);
+}

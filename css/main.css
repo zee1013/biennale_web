@@ -6,6 +6,7 @@
 @import url(gallery.css);
 @import url(about.css);
 @import url(exhibition.css);
+@import url(program.css);
 
 /* root */
 :root{
@@ -90,8 +91,10 @@ p, a, h2{
   cursor: pointer;
 }
 .promotion-btn{
-  color: #fff;
   background-color: var(--color--main);
+}
+.promotion-btn p{
+  color: #fff;
 }
 .promotion-btn span{
   font-size: 21px;

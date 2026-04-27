@@ -42,4 +42,12 @@ window.addEventListener("load", () => {
       },
     },
   });
+  // 프로그램 스와이퍼
+  const programSwiper = new Swiper(".program-swiper", {
+    loop : true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  })
 });

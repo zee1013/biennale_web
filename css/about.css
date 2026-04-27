@@ -31,14 +31,16 @@ background-size: cover;
 .about-txt h2 {
   margin-bottom: 5%;
   line-height: 1.2;
-  font-size: var(--font--title--64);
+  /* font-size: var(--font--title--64); */
+font-size: clamp(36px, 4vw, 64px);
   color:#fff;
   z-index: 1;
 }
 .about-txt p {
   width: 60%;
   line-height: 1.5;
-  font-size: var(--font--main--21);
+  /* font-size: var(--font--main--21); */
+  font-size: clamp(12px, 2vw, 21px);
   color: #dfdfdf;
   z-index: 1;
 }

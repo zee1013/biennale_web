@@ -1,3 +1,8 @@
+@media (max-width: 1400px){
+  .inner{
+    width: 95% !important;
+  }
+}
 @media (max-width: 1024px) {
     .inner{
         width: 90% !important;
@@ -47,25 +52,23 @@
     transform: translateY(-50%) rotate(-45deg);
   }
   /* 비주얼 */
-  .txt-top h1{
+  .txt-top>h1{
     font-size: var(--font--title--48) !important;
   }
-  .txt-top h1 span{
+  .txt-top>h1>span{
     font-size: var(--font--title--64) !important;
   }
   /* 갤러리 */
-  .gallery-title h2{
-    font-size: var(--font--main--title-32) ;
-  }
   /* about */
   .about-txt{
     padding: 20px 0;
   }
   .about-txt h2{
     margin-bottom: 50px;
-    font-size: var(--font--title--48) !important;
   }
-  .about-txt p{
-    font-size: var(--font--main--18) !important;
-  }
+  /* 전시 */
+  /* 프로그램 */
+.program-date{
+  margin-bottom: 10%;
+}
 }

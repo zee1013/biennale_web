@@ -44,6 +44,7 @@
   width: calc(100% / 5);
   height: 100%;
   text-align: center;
+  cursor: pointer;
 }
 .menu-list>span{
   width: 100%;
@@ -75,7 +76,7 @@
   transition: all 0.5s;
   background-color: #fff;
 }
-.menu-list li a:hover span::after {
+.menu-list li:hover span::after {
   width: 100%;
 }
 .header.active .menu-list li a span::after {

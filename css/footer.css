@@ -1,0 +1,27 @@
+.footer{
+    padding: 2% 0;
+    background-color: rgb(63, 72, 92);
+}
+.footer p, .footer a{
+    font-size: clamp(12px, 1.5vw, 16px);
+    color: #999;
+}
+.footer-txt-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.footer-top{
+    display: flex;
+    gap: 3%;
+}
+.footer-top span{
+    display: block;
+    width: 2px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.footer-mid{
+    margin: 2% 0;
+    display: flex;
+    gap: 3%;
+}

@@ -68,7 +68,24 @@
   }
   /* 전시 */
   /* 프로그램 */
+  .program-list{
+    width: 100px !important;
+    padding: 7px 10px !important;
+  }
 .program-date{
-  margin-bottom: 10%;
+  margin-bottom: 5% !important;
 }
+}
+@media (max-width : 768px){
+  /* 프로그램 */
+  
+  /* 사전예약 */
+  .info-list{
+    grid-template-columns: 1fr !important;
+    gap: 30px;
+  }
+  /* footer */
+  .footer-mid{
+    display: block !important;
+  }
 }

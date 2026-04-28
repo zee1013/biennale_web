@@ -1,0 +1,79 @@
+.info{
+    margin-top: 10%;
+    color: #fff;
+    background-color: var(--color--sub);
+}
+.info-title{
+    padding: 5% 0;
+}
+.info-title h2{
+    position: relative;
+    text-align: center;
+    font-size: var(--font--main--title-32);
+    color: #fff;
+}
+.info-list{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.info-list i{
+    font-size: 24px;
+}
+.info-list h4{
+    margin: 3% 0;
+    font-size: clamp(16px, 2vw, 21px);
+}
+.info-list p{
+    font-size: clamp(14px, 1vw, 18px);
+    line-height: 24px;
+    color: #fff;
+}
+.info-list p span{
+    font-size: clamp(12px, 1vw, 16px);
+}
+.list-border{
+    display: block;
+    width: 100%;
+    margin: 5% 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.price p{
+    color: #fff;
+}
+.price span{
+    display: block;
+    width: 2px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.info-btn-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-btn{
+    margin-top: 4%;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: clamp(24px, 2vw, 28px);
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--color--main);
+    background-color: #fff;
+}
+.info-btn-desc{
+    padding-top: 1.5%;
+    padding-bottom: 5%;
+    color: rgba(255, 255, 255, 0.5);
+}

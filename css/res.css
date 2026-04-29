@@ -77,15 +77,42 @@
 }
 }
 @media (max-width : 768px){
+  /* 퀵 버튼 */
+  .fix-btn button{
+    width: 70px !important;
+    height: 70px !important;
+    font-size: 12px !important;
+  }
+  .promotion-btn span{
+    font-size: 14px !important;
+  }
+  .promotion-btn i{
+    font-size: 16px !important;
+  }
+  .gotop i{
+    font-size: 18px !important;
+  }
+  /* 비주얼 */
+  .txt-subTitle span{
+    width: 150px !important;
+  }
   /* 프로그램 */
-  
   /* 사전예약 */
   .info-list{
     grid-template-columns: 1fr !important;
     gap: 30px;
   }
   /* footer */
+  .footer{
+    padding: 4% 0 !important;
+  }
   .footer-mid{
     display: block !important;
+  }
+}
+@media (max-width : 480px){
+  /* 프로그램 */
+  .program-desc{
+    display: none;
   }
 }

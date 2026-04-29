@@ -39,6 +39,7 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  font-family: "Pretendard";
   color: var(--color--text--desc);
 }
 /* 스와이퍼 컨트롤러 */
@@ -52,7 +53,8 @@
   justify-content: space-between;
 }
 .sw-visual-ctrl button{
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: clamp(32px, 3vw, 40px);
   border: none;
   cursor: pointer;
   color: #ddd;

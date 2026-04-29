@@ -12,13 +12,14 @@
 }
 .footer-top{
     display: flex;
+    align-items: center;
     gap: 3%;
 }
 .footer-top span{
     display: block;
-    width: 2px;
+    width: 1px;
     height: 12px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .footer-mid{
     margin: 2% 0;

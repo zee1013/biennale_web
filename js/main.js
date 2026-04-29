@@ -18,4 +18,14 @@ window.addEventListener("load", ()=>{
         },
         offset:"80%"
     })
+    // 스크롤 버튼
+    const scroll = document.querySelector(".scroll-btn")
+    const infoSection = document.querySelector(".info")
+    scroll.addEventListener("click", ()=>{
+        this.window.scrollTo({
+            top: infoSection.offsetTop,
+            behavior : "smooth",
+        })
+    })
+
 })

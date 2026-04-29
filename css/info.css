@@ -9,7 +9,8 @@
 .info-title h2{
     position: relative;
     text-align: center;
-    font-size: var(--font--main--title-32);
+    /* font-size: var(--font--main--title-32); */
+    font-size: clamp(27px, 3vw, 32px);
     color: #fff;
 }
 .info-list{
@@ -66,7 +67,7 @@
     padding: 25px 30px;
     border: none;
     border-radius: 50px;
-    font-size: clamp(24px, 2vw, 28px);
+    font-size: clamp(21px, 2vw, 28px);
     font-weight: bold;
     cursor: pointer;
     color: var(--color--main);
@@ -75,5 +76,6 @@
 .info-btn-desc{
     padding-top: 1.5%;
     padding-bottom: 5%;
+    font-size: clamp(12px, 1vw, 16px);
     color: rgba(255, 255, 255, 0.5);
 }

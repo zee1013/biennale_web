@@ -69,14 +69,56 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- jQuery cookie 플러그인 불러오기 (쿠키를 쉽게 다룰 수 있게 해줌) -->
+     <script src="js/jquery-1.12.3.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
+      integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
     <!-- js 연결 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/cookie.js"></script>
   </head>
   <body>
     <!-- modal 창(promotion) -->
+     <div class="modal_wrap">
+      <div class="modal_box">
+        <div class="modal_wrap_box">
+          <div class="modal_txtbox">
+            <!-- 얼리버드 -->
+            <div class="modal-toptxt">
+              <span></span>
+              <p>Early Bird</p>
+              <span></span>
+            </div>
+            <!-- 얼리버드 끝 -->
+             <!-- 사전예약 타이틀 / desc -->
+              <h3>사전예약 특별 혜택</h3>
+              <p>지금 예약하고 특별한 혜택을 받으세요!</p>
+              <h5>2026.07.20 - 08.20</h5>
+          </div>
+          <!-- 사전예약 창 이미지 -->
+           <div class="modal_img">
+            <img src="assets/earlyBird.png" alt="사전예약 이미지">
+           </div>
+           <!-- 사전예약 버튼 -->
+            <div class="earlyBird_btn">
+              <button>사전예약하기 <i class="fa-solid fa-arrow-right-long"></i></button>
+              <p>※ 혜택은 조기 마감될 수 있습니다.</p>
+            </div>
+        </div>
+          <!-- 오늘하루 보지않기 -->
+           <div class="modal_checkBox">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">오늘 하루 보지않기</label>
+           </div>
+      </div>
+     </div>
+     <!-- modal 창 끝 -->
     <!-- 전체 -->
     <div class="wrap">
       <!-- gotop -->
@@ -382,7 +424,7 @@
                         <img src="img/programs/program1.png" alt="워크숍">
                       </div>
                       <div class="program-txt">
-                        <p class="program-list">WORKSHOP</p>
+                        <button class="program-list">WORKSHOP</button>
                         <h4>사진으로 보는 시선의 확장</h4>
                         <p class="program-date">2026 . 09 . 18 - 09 . 19</p>
                         <p class="program-desc">다양한 사진 프레이밍을 통해, <br>
@@ -396,7 +438,7 @@
                         <img src="img/programs/program2.png" alt="talk">
                       </div>
                       <div class="program-txt">
-                        <p class="program-list">TALK</p>
+                        <button class="program-list">TALK</button>
                         <h4>사진과 시선에 대하여</h4>
                         <p class="program-date">2026 . 09 . 30</p>
                         <p class="program-desc">작가가 전하는 <br>
@@ -410,7 +452,7 @@
                         <img src="img/programs/program3.png" alt="experience">
                       </div>
                       <div class="program-txt">
-                        <p class="program-list">EXPERIENCE</p>
+                        <button class="program-list">EXPERIENCE</button>
                         <h4>나의 시선 기록하기</h4>
                         <p class="program-date">2026 . 10 . 08</p>
                         <p class="program-desc">일상의 순간을 <br>
@@ -424,7 +466,7 @@
                         <img src="img/programs/program4.png" alt="EVENT">
                       </div>
                       <div class="program-txt">
-                        <p class="program-list">EVENT</p>
+                        <button class="program-list">EVENT</button>
                         <h4>야간 전시 관람</h4>
                         <p class="program-date">2026 . 10 . 21</p>
                         <p class="program-desc">밤의 분위기 속에서 <br>

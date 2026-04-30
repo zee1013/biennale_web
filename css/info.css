@@ -48,6 +48,7 @@
     gap: 3%;
 }
 .price p{
+    font-size: clamp(12px, 1vw, 16px);
     color: #fff;
 }
 .price span{
@@ -64,9 +65,10 @@
 }
 .info-btn{
     margin-top: 4%;
-    padding: 25px 30px;
+    /* padding: 25px 30px; */
+    padding: 4% 7%;
     border: none;
-    border-radius: 50px;
+    border-radius: 100px;
     font-size: clamp(21px, 2vw, 28px);
     font-weight: bold;
     cursor: pointer;

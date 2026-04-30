@@ -60,7 +60,7 @@ html.active{
   max-width: 1400px;
   margin: auto;
 }
-p, a, h2{
+p, a, h2, h3,h5{
   font-family: "Pretendard";
   color: var(--color--text--main);
 }
@@ -80,11 +80,9 @@ p, a, h2{
   transform: translateX(-50%);
 }
 .modal_wrap_box{
-  /* position: absolute;
-  top: 10%;
-  left: 50%; */
-  
-  width: 500px;
+  /* width: 500px; */
+  max-width: 500px;
+  min-width: 350px;
   padding: 5%;
   border-radius: 20px;
   background-color: #fff;

@@ -11,6 +11,14 @@ window.addEventListener("load", () => {
   // 갤러리 스와이퍼
   const gallerySwiper = new Swiper(".gallery-swiper", {
     loop: true,
+    slidesPerView: 1.5,
+    spaceBetween: 15,
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      }
+    },
     navigation: {
       nextEl: ".sw-visual-next",
       prevEl: ".sw-visual-prev",

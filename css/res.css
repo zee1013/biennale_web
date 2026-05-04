@@ -93,15 +93,51 @@
   .txt-subTitle span{
     width: 150px !important;
   }
+  /* 갤러리 */
+.gallery-swiper{
+    width: 85% !important;
+  }
+  .sw-visual-ctrl{
+    display: none !important;
+  }
+  /* 전시 */
+  .exhibition{
+    margin: 15% 0 !important;
+  }
   /* 프로그램 */
+  .program{
+    margin: 15% 0 !important;
+  }
   /* 사전예약 */
+  .info{
+    padding: 8% 0 5% !important;
+  }
   .info-list{
+    padding: 5%;
     grid-template-columns: 1fr !important;
     gap: 30px;
   }
+  .info-list li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+  }
+  .info-list i{
+    font-size: 30px !important;
+  }
+  .info-list li br{
+    display: none;
+  }
+  .info-list span{
+    padding-left: 15px;
+  }
+  .info-btn-desc{
+    padding-top: 3% !important;
+  }
   /* footer */
   .footer{
-    padding: 4% 0 !important;
+    padding: 6% 0 !important;
   }
   .footer-mid{
     display: block !important;
@@ -109,8 +145,37 @@
 }
 
 @media (max-width : 480px){
+  /* 퀵 버튼 */
+  .fix-btn button{
+    width: 65px !important;
+    height: 65px !important;
+    font-size: 12px !important;
+  }
   /* 프로그램 */
   .program-desc{
     display: none;
+  }
+  /* 사전예약 */
+  .info{
+    padding: 10% 0 !important;
+  }
+  .price{
+    margin: 8% 0 !important;
+  }
+  .info-list li{
+    gap: 8%;
+  }
+  .info-list li p{
+    text-align: left !important;
+  }
+  .info-list span{
+    padding-left: 0;
+  }
+  .info-list li br{
+    display: block;
+  }
+  /* footer */
+  .footer{
+    padding: 10% 0 !important;
   }
 }

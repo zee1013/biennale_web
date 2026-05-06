@@ -49,7 +49,7 @@
     <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
     <meta property="og:url" content="https://biennale-web.vercel.app/" />
     <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
-    <meta property="og:image" content="http://127.0.0.1:5500/img/gallery/gallery_6.png" />
+    <meta property="og:image" content="https://biennale-web.vercel.app/img/gallery/gallery_6.png" />
     <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
     <meta
       property="og:description"
@@ -76,6 +76,9 @@
       integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"></script>
+      <!-- aos 적용 -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- js 연결 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
@@ -137,7 +140,7 @@
           <nav class="nav">
             <ul class="menu-list">
               <li>
-                <a href="#"><span> EXHIBITION</span></a>
+                <a href="#EXHIBITION"><span>EXHIBITION</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">주제전시</a></li>
                   <li><a href="#">특별전시</a></li>
@@ -146,14 +149,14 @@
                 </ul>
               </li>
               <li>
-                <a href="#"><span>ARTIST</span></a>
+                <a href="#ARTIST"><span>ARTIST</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">작가 리스트</a></li>
                   <li><a href="#">작가 상세보기</a></li>
                 </ul>
               </li>
               <li>
-                <a href="#"><span>PROGRAM</span></a>
+                <a href="#PROGRAM"><span>PROGRAM</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">워크샵</a></li>
                   <li><a href="#">체험교육</a></li>
@@ -162,7 +165,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#"><span>VISIT</span></a>
+                <a href="#VISIT"><span>VISIT</span></a>
                 <ul class="sub-menu">
                   <li>
                     <a href="#">위치/지도<br />(교통안내)</a>
@@ -173,7 +176,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#"><span>TICKET</span></a>
+                <a href="#TICKET"><span>TICKET</span></a>
                 <ul class="sub-menu">
                   <li><a href="#">예매하기</a></li>
                 </ul>
@@ -190,11 +193,11 @@
         <!-- 모바일 메뉴 -->
         <nav class="mb-nav">
           <ul class="mb-menu-list">
-            <li><a href="#">EXHIBITION</a></li>
+            <li><a href="#EXHIBITION">EXHIBITION</a></li>
             <li><a href="#">ARTIST</a></li>
-            <li><a href="#">PROGRAM</a></li>
-            <li><a href="#">VISIT</a></li>
-            <li><a href="#">TICKET</a></li>
+            <li><a href="#PROGRAM">PROGRAM</a></li>
+            <li><a href="#VISIT">VISIT</a></li>
+            <li><a href="#TICKET">TICKET</a></li>
           </ul>
         </nav>
       </header>
@@ -218,7 +221,10 @@
         </div>
         <div class="main-txtBox">
             <div class="inner">
-            <div class="txt-top">
+            <div class="txt-top" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1500">
               <h1>
                 Daegu <br />
                 <span>Photo Biennale</span>
@@ -241,14 +247,17 @@
        <section class="gallery">
         <div class="inner">
           <div class="gallery-title">
-            <div class="quote">
+            <div class="quote" data-aos="fade-up"
+     data-aos-duration="3000">
               <img src="img/gallery/icomoon-free_quotes-left.png" alt="qoute">
             </div>
-          <h2>다양한 시선으로 바라본 세계, <br>
+          <h2 data-aos="fade-up"
+     data-aos-duration="2000">다양한 시선으로 바라본 세계, <br>
           사진으로 경험하는 새로운 감각.</h2>
           </div>
           <!-- 갤러리 스와이프 -->
-           <div class="gallery-swiper-wrap">
+           <div class="gallery-swiper-wrap" data-aos="fade-up"
+     data-aos-duration="3000"  data-aos-delay="100">
             <div class="swiper gallery-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -320,22 +329,27 @@
         <section class="about">
           <div class="inner">
             <div class="about-txt">
-              <h2>대구 <br>
+              <h2 data-aos="fade-up"
+     data-aos-duration="3000">대구 <br>
               사진 비엔날레</h2>
-              <p>세계적인 사진 작가들의 작품을 한자리에서 만나보세요. <br>
+              <p data-aos="fade-up"
+     data-aos-duration="2000">세계적인 사진 작가들의 작품을 한자리에서 만나보세요. <br>
 대구사진비엔날레는 동시대 사진 예술의 흐름을 조망하며, 다양한 시선과 해석이 공존하는 아시아 대표 사진 축제입니다.</p>
-<p>다양한 주제와 기법으로 표현된 수백여 점의 작품들은 우리에게 익숙한 세계를 낯설게 바라보게 하고, 사진을 통해 새로운 감각과 인식을 경험하게 합니다.</p>
+<p data-aos="fade-up"
+     data-aos-duration="2000" data-aos-delay="100">다양한 주제와 기법으로 표현된 수백여 점의 작품들은 우리에게 익숙한 세계를 낯설게 바라보게 하고, 사진을 통해 새로운 감각과 인식을 경험하게 합니다.</p>
             </div>
           </div>
         </section>
         <!-- exhibition 전시 -->
-         <section class="exhibition">
+         <section class="exhibition" id="EXHIBITION">
           <div class="inner">
-            <div class="exhibition-title">
+            <div class="exhibition-title" data-aos="fade-up"
+     data-aos-duration="3000">
               <h2>EXHIBITION</h2>
             </div>
             <!-- 스와이퍼 / pc에서는 스와이프x -->
-             <div class="exhibition-swiper-wrap">
+             <div class="exhibition-swiper-wrap" data-aos="fade-up"
+     data-aos-duration="2000" data-aos-delay="100">
               <div class="swiper exhibition-swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -410,18 +424,20 @@
           </div>
          </section>
          <!-- 프로그램 -->
-          <section class="program">
+          <section class="program" id="PROGRAM">
             <div class="inner">
-              <div class="program-title">
+              <div class="program-title" data-aos="fade-up"
+     data-aos-duration="3000">
                 <h2>PROGRAM</h2>
               </div>
               <!-- 스와이퍼 -->
-               <div class="swiper program-swiper">
+               <div class="swiper program-swiper" data-aos="fade-up"
+     data-aos-duration="2000" data-aos-delay="100">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <a href="#">
-                      <div class="program-img">
-                        <img src="img/programs/program1.png" alt="워크숍">
+                      <div class="program-img program-bg1">
+                        <!-- <img src="img/programs/program1.png" alt="워크숍"> -->
                       </div>
                       <div class="program-txt">
                         <button class="program-list">WORKSHOP</button>
@@ -434,8 +450,8 @@
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <div class="program-img">
-                        <img src="img/programs/program2.png" alt="talk">
+                      <div class="program-img program-bg2">
+                        <!-- <img src="img/programs/program2.png" alt="talk"> -->
                       </div>
                       <div class="program-txt">
                         <button class="program-list">TALK</button>
@@ -448,8 +464,8 @@
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <div class="program-img">
-                        <img src="img/programs/program3.png" alt="experience">
+                      <div class="program-img program-bg3">
+                        <!-- <img src="img/programs/program3.png" alt="experience"> -->
                       </div>
                       <div class="program-txt">
                         <button class="program-list">EXPERIENCE</button>
@@ -462,8 +478,8 @@
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <div class="program-img">
-                        <img src="img/programs/program4.png" alt="EVENT">
+                      <div class="program-img program-bg4">
+                        <!-- <img src="img/programs/program4.png" alt="EVENT"> -->
                       </div>
                       <div class="program-txt">
                         <button class="program-list">EVENT</button>
@@ -479,12 +495,14 @@
             </div>
           </section>
           <!-- 관람안내 -->
-           <section class="info">
+           <section class="info" id="VISIT">
             <div class="inner">
-              <div class="info-title">
+              <div class="info-title" data-aos="fade-up"
+     data-aos-duration="2000">
                 <h2>관람 안내</h2>
               </div>
-              <ul class="info-list">
+              <ul class="info-list" data-aos="fade-up"
+     data-aos-duration="2000" data-aos-delay="100">
                 <li>
                   <i class="fa-regular fa-calendar"></i>
                   <h4>전시 기간</h4>
@@ -509,12 +527,14 @@
               </ul>
               <span class="list-border"></span>
               <!-- 사전예약 -->
-               <div class="price">
+               <div class="price" data-aos="fade-up"
+     data-aos-duration="2000" data-aos-delay="200">
                 <p>일반 12,000원</p>
                 <span></span>
                 <p>청소년 8,000원</p>
                </div>
-               <div class="info-btn-wrap">
+               <div class="info-btn-wrap" id="TICKET" data-aos="fade-up"
+     data-aos-duration="2000" data-aos-delay="250">
                  <button class="info-btn">사전예약하기 <i class="fa-solid fa-arrow-right-long"></i></button>
                  <p class="info-btn-desc">현장 발권 및 온라인 예매 가능</p>
                </div>

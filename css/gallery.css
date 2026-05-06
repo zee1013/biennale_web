@@ -19,9 +19,6 @@
   font-size: clamp(24px, 3vw, 48px);
   color: var(--color--text--main);
 }
-/* .gallery-imgBox{
-    width: 80%;
-} */
  .gallery-swiper-wrap{
   position: relative;
  }

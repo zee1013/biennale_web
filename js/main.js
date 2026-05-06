@@ -1,4 +1,5 @@
 window.addEventListener("load", ()=>{
+    AOS.init();
     const fixBtn = document.querySelector(".fix-btn")
     const goTop = document.querySelector(".gotop")
     goTop.addEventListener("click", ()=>{

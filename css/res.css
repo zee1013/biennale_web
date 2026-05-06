@@ -74,6 +74,10 @@
 }
 
 @media (max-width : 768px){
+  /* modal 창 */
+  .modal_box{
+    top: 12% !important;
+  }
   /* 퀵 버튼 */
   .fix-btn button{
     width: 70px !important;
@@ -104,9 +108,44 @@
   .exhibition{
     margin: 15% 0 !important;
   }
+  .exhibition-swiper-wrap{
+    margin-top: 15% !important;
+  }
   /* 프로그램 */
   .program{
-    margin: 15% 0 !important;
+    margin: 13% 0 !important;
+  }
+  .program-swiper{
+    margin-top: 13% !important;
+    aspect-ratio: 420 / 300 !important;
+    border-radius: 20px;
+  }
+  .program-bg1{
+    background: url(../img/programs/programs_mb/program_mb1.png) no-repeat center !important;
+    background-size: cover !important;
+    background-position-y: 15% !important;
+  }
+  .program-bg2{
+    background: url(../img/programs/programs_mb/program_mb2.png) no-repeat center !important;
+    background-size: cover !important;
+    background-position-y: 15% !important;
+  }
+  .program-bg3{
+    background: url(../img/programs/programs_mb/program_mb3.png) no-repeat center !important;
+    background-size: cover !important;
+    background-position-y: 15% !important;
+  }
+  .program-bg4{
+    background: url(../img/programs/programs_mb/program_mb4.png) no-repeat center !important;
+    background-size: cover !important;
+    background-position-y: 15% !important;
+  }
+  .program-txt{
+    top: 65% !important;
+    left: 50% !important;
+  }
+  .program-desc br{
+    display: none !important;
   }
   /* 사전예약 */
   .info{
@@ -125,9 +164,6 @@
   }
   .info-list i{
     font-size: 30px !important;
-  }
-  .info-list li br{
-    display: none;
   }
   .info-list span{
     padding-left: 15px;
@@ -152,8 +188,8 @@
     font-size: 12px !important;
   }
   /* 프로그램 */
-  .program-desc{
-    display: none;
+  .program-desc br{
+    display: block !important;
   }
   /* 사전예약 */
   .info{

@@ -82,7 +82,7 @@ p, a, h2, h3,h5{
 .modal_wrap_box{
   /* width: 500px; */
   max-width: 500px;
-  min-width: 350px;
+  min-width: 300px;
   padding: 5%;
   border-radius: 20px;
   background-color: #fff;
@@ -91,7 +91,7 @@ p, a, h2, h3,h5{
   text-align: center;
 }
 .modal-toptxt{
-  margin-bottom: 20px;
+  margin-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,17 +108,20 @@ p, a, h2, h3,h5{
   background-color: #eee;
 }
 .modal_txtbox h3{
-  font-size: 36px;
+  /* font-size: 36px; */
+  font-size: clamp(32px, 3vw, 36px);
 }
 .modal_txtbox p{
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: clamp(14px, 2vw, 16px);
   line-height: 2;
 }
 .modal_txtbox h5{
-  font-size: 21px;
+  /* font-size: 21px; */
+  font-size: clamp(16px, 2vw, 21px);
 }
 .modal_img{
-  margin: 30px 0;
+  margin: 7% 0;
 }
 .earlyBird_btn{
   text-align: center;

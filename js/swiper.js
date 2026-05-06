@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
   // 갤러리 스와이퍼
   const gallerySwiper = new Swiper(".gallery-swiper", {
     loop: true,
-    slidesPerView: 1.5,
+    slidesPerView: 1.2,
     spaceBetween: 15,
     breakpoints: {
       768: {

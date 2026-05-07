@@ -98,6 +98,13 @@
     width: 150px !important;
   }
   /* 갤러리 */
+  .quote{
+    width: 54px;
+    height: 54px;
+  }
+  .quote img{
+    width: 100% !important;
+  }
 .gallery-swiper{
     width: 85% !important;
   }
@@ -141,8 +148,9 @@
     background-position-y: 15% !important;
   }
   .program-txt{
-    top: 65% !important;
+    top: 50% !important;
     left: 50% !important;
+    transform: translate(-50%, -50%) !important;
   }
   .program-desc br{
     display: none !important;
@@ -153,7 +161,7 @@
   }
   .info-list{
     padding: 5%;
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     gap: 30px;
   }
   .info-list li{
@@ -186,6 +194,14 @@
     width: 65px !important;
     height: 65px !important;
     font-size: 12px !important;
+  }
+  /* 갤러리 */
+  .quote{
+    width: 42px;
+    height: 42px;
+  }
+  .quote img{
+    width: 100% !important;
   }
   /* 프로그램 */
   .program-desc br{

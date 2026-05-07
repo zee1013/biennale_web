@@ -68,10 +68,10 @@
 .info-btn{
     /* margin-top: 4%; */
     /* padding: 25px 30px; */
-    padding: 2% 3%;
+    padding: 3% 4%;
     border: none;
     border-radius: 100px;
-    font-size: clamp(21px, 2vw, 28px);
+    font-size: clamp(18px, 2vw, 28px);
     font-weight: bold;
     cursor: pointer;
     color: var(--color--main);

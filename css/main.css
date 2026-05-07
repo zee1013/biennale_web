@@ -1,6 +1,5 @@
 /* css 연결 */
 @import url(font.css);
-@import url(res.css);
 @import url(header.css);
 @import url(visual.css);
 @import url(gallery.css);
@@ -9,6 +8,7 @@
 @import url(program.css);
 @import url(info.css);
 @import url(footer.css);
+@import url(res.css);
 
 /* root */
 :root{
@@ -60,7 +60,7 @@ html.active{
   max-width: 1400px;
   margin: auto;
 }
-p, a, h2, h3,h5{
+p, a, h2, h3, h5, button{
   font-family: "Pretendard";
   color: var(--color--text--main);
 }

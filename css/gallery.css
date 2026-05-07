@@ -9,7 +9,7 @@
 }
 .quote img {
   display: block;
-  width: 90%;
+  width: 100%;
 }
 .gallery-title {
   margin-bottom: 10%;
@@ -21,6 +21,7 @@
 }
  .gallery-swiper-wrap{
   position: relative;
+  cursor: pointer;
  }
 .gallery-swiper {
   width: 70%;

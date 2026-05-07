@@ -55,8 +55,8 @@
 }
 .txt-top{
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  /* transform: translateY(-50%); */
 }
 .txt-top h1 {
   font-size: var(--font--title--64);

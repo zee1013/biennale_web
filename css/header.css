@@ -120,7 +120,7 @@
 }
 .menu-list li:hover .sub-menu {
   opacity: 1;
-  max-height: 250%;
+  max-height: 260%;
   visibility: visible;
 }
 .header.active .sub-menu {
@@ -140,7 +140,7 @@
   top: 70px;
   left: 100;
   width: 100%;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 70px);
   padding-top: 50px;
   background-color: #fff;
   opacity: 0;

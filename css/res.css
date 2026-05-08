@@ -71,6 +71,10 @@
 .program-date{
   margin-bottom: 5% !important;
 }
+/* 사전예약 */
+.info-btn{
+  padding: 21px 27px !important;
+}
 }
 
 @media (max-width : 768px){
@@ -173,6 +177,9 @@
   .info-list i{
     font-size: 30px !important;
   }
+  .info-list br{
+    display: none;
+  }
   .info-list span{
     padding-left: 15px;
   }
@@ -225,6 +232,9 @@
   }
   .info-list li br{
     display: block;
+  }
+  .info-btn{
+    padding: 18px 24px !important;
   }
   /* footer */
   .footer{

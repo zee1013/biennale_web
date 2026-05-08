@@ -67,8 +67,8 @@
 }
 .info-btn{
     /* margin-top: 4%; */
-    /* padding: 25px 30px; */
-    padding: 3% 4%;
+    padding: 25px 30px;
+    /* padding: 3% 4%; */
     border: none;
     border-radius: 100px;
     font-size: clamp(18px, 2vw, 28px);
